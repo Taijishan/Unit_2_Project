@@ -1,0 +1,49 @@
+LinearEquation class
+
+Instance Variables:
+private int x - This variable represents the x-coordinate of the first coordinate
+	private int y - This variable represents the y-coordinate of the first coordinate
+	private int xOne - This variable represents the x-coordinate of the second coordinate
+	private int yOne - This variable represents the y-coordinate of the second coordinate
+
+Constructor
+	public LinearEquation(4 integer values to be assigned, which refers to the 2 x and 2 y coordinates the user should enter)
+
+
+Methods
+public double slopeLine - returns slope of the line
+
+public double yInt - returns y-intercept (rounded)
+
+public String slopeInt - returns the slope intercept form (rounded)
+
+public double distancePoint - returns the distance between points (rounded)
+
+public double getYFromX - get y after inputting user's x (rounded)
+
+public String toString() - returns all the method results
+    String s0 x + y
+    String s1 xOne + yOne
+    String s2 slopeLine()
+    String s3 yInt()
+    String s4 slopeInt()
+    String s5 distancePoint()
+    return s0 + s1 + s2 + s3 +s4 +s5 -this should print(return) all of the method results
+    }
+
+
+EquationRunner.java
+Step 1: add a scanner class
+Step 2: Ask user to enter first coordinate pair
+Step 3: Splits input into x value and y value through substring and arrays
+Step 4: Ask user to enter second coordinate pair
+Step 5: Splits input into x value and y value for the second coordinate through substring and arrays
+Step 6: Prints out the following:
+The two coordinates
+The slope of line
+The y-intercept of the line
+the slope-intercept form
+The distance between the two points
+Step 7: asks the user to enter a x-value
+Step 8: print out the solved coordinate point
+
